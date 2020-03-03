@@ -2,7 +2,6 @@
 import React, { Component } from 'react';
 import Header from './Components/Header/Header.js';
 import Main from './Components/MainContent/Main.js';
-import Searchcard from './Components/MainContent/Searchcard.js';
 import './App.css';
 
 class App extends Component {
@@ -11,7 +10,7 @@ class App extends Component {
       <div className="App">
         <Header />
         <Main />
-        <Searchcard />
+      
         
       </div>
     );
