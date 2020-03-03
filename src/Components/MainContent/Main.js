@@ -33,7 +33,7 @@ getRandomJokes = () => {
 render() {
     return (
         <div className= "main">
-            <h1>Time to have fun with Chuck Norris</h1>
+            <h1>Time to have some fun with Chuck Norris!</h1>
             
             <div className="row">
             <div className="col-md-4 col-lg-3" id="col_button">    
@@ -49,6 +49,7 @@ render() {
                 <img className="chuck" src={chuck} alt='Chuck Norris'/>
             </div>
             </div>
+            
             </div>
         
     )
