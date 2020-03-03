@@ -6,8 +6,8 @@ class Header extends Component {
     render() {
       return (
         <div className="Header">
-          <img class='logo'src={logo} alt= 'The Co-operative Bank logo' />
-          <h1>TECH TEST _ FRONT END</h1>
+          <img className="imagelogo" src={logo} alt= 'The Co-operative Bank logo' />
+          <h3 className="firstHeading">Tech test - Front end</h3>
           <hr></hr>
         </div>
           
